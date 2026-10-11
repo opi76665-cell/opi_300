@@ -1,20 +1,20 @@
-import 'package:flutter/material.dart';
-import 'package:opi_300/homepage.dart';
 
-void main(){
+import 'package:flutter/material.dart';
+import 'package:opi_300/assignment3.dart';
+
+void main() {
   runApp(const MyApp());
 }
 
-class MyApp extends StatelessWidget{
+class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-  return MaterialApp( 
-    theme: ThemeData.dark(),
-    debugShowCheckedModeBanner: false,
-    home:Homepage());//full app a cng korle aikhane korbo
-
+    return MaterialApp(
+      theme: ThemeData.dark(),
+      debugShowCheckedModeBanner: false,
+      home: Assignment3(),
+    );
   }
-
 }
